@@ -4,19 +4,21 @@
 
 var age; //declaration
 age = 22; //definition
-
 var isStudent = false;
 var myName = "Keddon";
-
 var phrase = 'I don\'t know. \n You\'ll have to speak with the professor';
+var yearOfBirth =1992;
+var studentsInClass = ["Tom", "Paul","Jenny", "Melony"]; //0=tom,1=paul,2=jenny,3=melony
 
-//storage container = value
 
-var yearOfBirth =1992; //declaring and defining on the same line
+
+
 
 alert(myName + phrase);
-
-
+alert(studentsInClass);
+alert(studentsInClass[0]);
+console.log(studentsInClass[2]);
+console.log(studentsInClass[0 + 3]);
 
 
 
