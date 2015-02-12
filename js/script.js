@@ -2,7 +2,27 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
-var objective = "PEMDAS - The Order of Operations";
+
+var objective = "Using Arrays in Expressions";
+alert(objective);
+console.log(objective);
+
+var orangeBins = [234, 567, 882];
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log(orangeBins)
+
+var operation = "Adding an array list ";
+console.log(operation);
+console.log(total);
+
+
+
+
+
+
+
+
+/*var objective = "PEMDAS - The Order of Operations";
 alert(objective);
 console.log(objective);
 
