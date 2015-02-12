@@ -2,17 +2,21 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
-var objective = "area of the triangle is half width times height";
-
+var objective = "Modulo Operator";
 alert(objective);
 
-var width = 4;
+var remainder = 32 % 10;
+alert(remainder)
+console.log(remainder);
+
+
+/* var width = 4;
 var height = 5;
 var area = width * height/2;
 console.log(area);
 
 
-/* var yearBorn = 1992;
+var yearBorn = 1992;
 var age = 2015 - yearBorn - 1;
 alert(age);
 console.log(age);
