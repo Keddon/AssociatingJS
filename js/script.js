@@ -3,24 +3,30 @@
  */
 
 
-var objective = "Using Arrays in Expressions";
+var objective = "Concatenating Strings";
 alert(objective);
 console.log(objective);
 
-var orangeBins = [234, 567, 882];
+var firstName = Keddon;
+var lastName = Campbell;
+var fullName = firstName + " " +lastName;
+console.log(fullName);
+
+var a = "6";
+var b = "7";
+var results = a + b;
+console.log(results);
+
+
+
+
+/*var orangeBins = [234, 567, 882];
 var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
 console.log(orangeBins)
 
 var operation = "Adding an array list ";
 console.log(operation);
 console.log(total);
-
-
-
-
-
-
-
 
 /*var objective = "PEMDAS - The Order of Operations";
 alert(objective);
