@@ -2,15 +2,40 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
-var objective = "Modulo Operator";
+var objective = "PEMDAS - The Order of Operations";
 alert(objective);
+console.log(objective);
 
-var remainder = 32 % 10;
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 60;
+var quiz4 = 80;
+var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
+
+console.log(quiz1,quiz2,quiz3,quiz4)
+
+var operation = "the average is the sum of the item divided by the number of item";
+console.log(operation);
+console.log(average);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* var remainder = 32 % 10;
 alert(remainder)
 console.log(remainder);
 
-
-/* var width = 4;
+var width = 4;
 var height = 5;
 var area = width * height/2;
 console.log(area);
