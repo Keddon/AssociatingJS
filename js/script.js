@@ -2,7 +2,21 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
-var age; //declaration
+
+var a = 2;
+var b;
+b = a + 3;
+var c;
+c = b + a;
+console.log(a);
+console.log(b);
+console.log(c);
+
+
+
+
+
+/*var age; //declaration
 age = 22; //definition
 var isStudent = false;
 var myName = "Keddon";
@@ -20,24 +34,7 @@ alert(studentsInClass[0]);
 console.log(studentsInClass[2]);
 console.log(studentsInClass[0 + 3]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* alert("Hello There!");
+ alert("Hello There!");
 alert("This is a second alert test");
 
 var yearBorn = 1992;
