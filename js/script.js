@@ -3,11 +3,21 @@
  */
 
 
-var objective = "Asssignment Operators";
+var objective = "Prompt and Alert";
 alert(objective);
 console.log(objective);
 
-var a = 3;
+var width = prompt("Please enter width");
+var height = prompt("please enter hight");
+var area = width * height;
+console.log(width);
+console.log(height);
+console.log(area);
+
+alert(area);
+
+
+/* var a = 3;
 a = a + 4;
 console.log(a);
 a += 4;
@@ -21,8 +31,6 @@ console.log(a);
 a --;
 console.log(a);
 console.log("each time 'a' is changed that new value is used in the next operation")
-
-
 
 
 /* var stringVar = "6";
