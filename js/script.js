@@ -2,14 +2,21 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
-var yearBorn = 1992;
+var objective = "area of the triangle is half width times height";
+
+alert(objective);
+
+var width = 4;
+var height = 5;
+var area = width * height/2;
+console.log(area);
+
+
+/* var yearBorn = 1992;
 var age = 2015 - yearBorn - 1;
 alert(age);
 console.log(age);
-
-
-
-/* var a = 2;
+var a = 2;
 var b;
 b = a + 3;
 var c;
