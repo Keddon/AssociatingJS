@@ -3,14 +3,29 @@
  */
 
 
-var objective = "Casting";
+var objective = "Asssignment Operators";
 alert(objective);
 console.log(objective);
 
+var a = 3;
+a = a + 4;
+console.log(a);
+a += 4;
+console.log(a);
+a /= 4;
+console.log(a);
+a -= 4;
+console.log(a);
+a ++;
+console.log(a);
+a --;
+console.log(a);
+console.log("each time 'a' is changed that new value is used in the next operation")
 
 
 
-var stringVar = "6";
+
+/* var stringVar = "6";
 var result = 7 + stringVar
 console.log(result);
 
