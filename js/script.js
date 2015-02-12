@@ -2,8 +2,14 @@
  * Created by keddoncampbell on 2/7/15.
  */
 
+var yearBorn = 1992;
+var age = 2015 - yearBorn - 1;
+alert(age);
+console.log(age);
 
-var a = 2;
+
+
+/* var a = 2;
 var b;
 b = a + 3;
 var c;
@@ -12,11 +18,7 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-
-
-
-
-/*var age; //declaration
+var age; //declaration
 age = 22; //definition
 var isStudent = false;
 var myName = "Keddon";
